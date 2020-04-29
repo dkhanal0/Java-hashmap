@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="hashmap.Tests" tests="2" skipped="0" failures="0" errors="0" timestamp="2020-04-29T17:03:08" hostname="Durgas-MacBook-Pro.local" time="0.25">
+<testsuite name="hashmap.Tests" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-04-29T17:19:35" hostname="Durgas-MacBook-Pro.local" time="0.149">
   <properties/>
-  <testcase name="testAccounts()" classname="hashmap.Tests" time="0.226"/>
-  <testcase name="testProducts()" classname="hashmap.Tests" time="0.018"/>
+  <testcase name="testProducts()" classname="hashmap.Tests" time="0.149"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

@@ -31,7 +31,7 @@ public class Main {
                 System.out.println("account not found");
             }else {
                 System.out.println("Account NUmber: " + myaccount.getAccountNumber());
-                System.out.println("Account Type:"             );
+                System.out.println("Account Type:"  +myaccount.getCustomer().getAccount());
                 System.out.println("Customer Last Name: " + myaccount.getCustomer().getLastName());
                 System.out.println("Customer First Name: " + myaccount.getCustomer().getFirstName());
 
@@ -58,7 +58,7 @@ public class Main {
                 System.out.println("product not found");
             }else {
                 System.out.println("ISBN: " + product.getIsbn());
-                System.out.println("Product Type: "              );
+                System.out.println("Product Type: "             );
                 System.out.println("Product Type: " + product.getProductName());
                 System.out.println("Price: "+ product.getUnitPrice());
             }
