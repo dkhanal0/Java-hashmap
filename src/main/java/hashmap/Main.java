@@ -31,7 +31,12 @@ public class Main {
                 System.out.println("account not found");
             }else {
                 System.out.println("Account NUmber: " + myaccount.getAccountNumber());
-                System.out.println("Account Type:"  +myaccount.getCustomer().getAccount());
+                // Examine account type -- JPE
+                if (myaccount instanceof CommercialAccount) {
+                    System.out.println("Account Type: Commercial");
+                } else {
+                    System.out.println("Account Type: Non-Commercial");
+                }
                 System.out.println("Customer Last Name: " + myaccount.getCustomer().getLastName());
                 System.out.println("Customer First Name: " + myaccount.getCustomer().getFirstName());
 
@@ -58,7 +63,11 @@ public class Main {
                 System.out.println("product not found");
             }else {
                 System.out.println("ISBN: " + product.getIsbn());
-                System.out.println("Product Type: "             );
+                if (product instanceof TaxableProduct) {
+                    System.out.println("Product Type: Taxable");
+                } else {
+                    System.out.println("Product Type: Non-Taxable");
+                }
                 System.out.println("Product Type: " + product.getProductName());
                 System.out.println("Price: "+ product.getUnitPrice());
             }
